@@ -19,6 +19,14 @@ defmodule CatlixirWebWeb.Router do
     get "/", PageController, :index
   end
 
+  scope "/api/shield", CatlixirWebWeb do
+    pipe_through :api
+
+    alias Api.Shield
+
+    get "/server", Shield.ServerCountController, :show
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", CatlixirWebWeb do
   #   pipe_through :api
