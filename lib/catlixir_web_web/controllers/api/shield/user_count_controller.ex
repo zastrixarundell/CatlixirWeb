@@ -6,7 +6,7 @@ defmodule CatlixirWebWeb.Api.Shield.UserCountController do
   # @apiName GetUserCountShield
   # @apiGroup Shields
   # @apiDescription Get the current user count of all of the real users the bot sees.
-  #
+  # @apiVersion 1.0.0
   #
   # @apiSuccess {String} label          Static text: `User count`.
   # @apiSuccess {String} message        Current user count.

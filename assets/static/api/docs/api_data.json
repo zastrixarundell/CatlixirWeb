@@ -6,6 +6,7 @@
     "name": "GetElixirVerionShield",
     "group": "Shields",
     "description": "<p>Get the current version of Elixir on which the bot is ran.</p>",
+    "version": "1.0.0",
     "success": {
       "fields": {
         "Success 200": [
@@ -40,7 +41,6 @@
         ]
       }
     },
-    "version": "0.0.0",
     "filename": "../lib/catlixir_web_web/controllers/api/shield/elixir_version_controller.ex",
     "groupTitle": "Shields"
   },
@@ -51,6 +51,7 @@
     "name": "GetServerCountShield",
     "group": "Shields",
     "description": "<p>Get the current count of servers the bot is in.</p>",
+    "version": "1.0.0",
     "success": {
       "fields": {
         "Success 200": [
@@ -85,7 +86,6 @@
         ]
       }
     },
-    "version": "0.0.0",
     "filename": "../lib/catlixir_web_web/controllers/api/shield/server_count_controller.ex",
     "groupTitle": "Shields"
   },
@@ -96,6 +96,7 @@
     "name": "GetUserCountShield",
     "group": "Shields",
     "description": "<p>Get the current user count of all of the real users the bot sees.</p>",
+    "version": "1.0.0",
     "success": {
       "fields": {
         "Success 200": [
@@ -130,7 +131,6 @@
         ]
       }
     },
-    "version": "0.0.0",
     "filename": "../lib/catlixir_web_web/controllers/api/shield/user_count_controller.ex",
     "groupTitle": "Shields"
   }

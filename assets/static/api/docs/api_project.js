@@ -1,13 +1,14 @@
 define({
-  "name": "",
-  "version": "0.0.0",
-  "description": "",
+  "name": "Catlixir",
+  "version": "1.0.0",
+  "description": "Documentation for the Catlixir API Endpoints",
+  "title": "Catlixir Documentation",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2020-04-15T21:21:52.891Z",
+    "time": "2020-04-15T21:32:42.491Z",
     "url": "http://apidocjs.com",
     "version": "0.20.1"
   }

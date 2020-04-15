@@ -6,7 +6,7 @@ defmodule CatlixirWebWeb.Api.Shield.ElixirVersionController do
   # @apiName GetElixirVerionShield
   # @apiGroup Shields
   # @apiDescription Get the current version of Elixir on which the bot is ran.
-  #
+  # @apiVersion 1.0.0
   #
   # @apiSuccess {String} label          Static text: `Elixir version`.
   # @apiSuccess {String} message        Current elixir version.

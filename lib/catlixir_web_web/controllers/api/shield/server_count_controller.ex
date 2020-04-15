@@ -6,7 +6,7 @@ defmodule CatlixirWebWeb.Api.Shield.ServerCountController do
   # @apiName GetServerCountShield
   # @apiGroup Shields
   # @apiDescription Get the current count of servers the bot is in.
-  #
+  # @apiVersion 1.0.0
   #
   # @apiSuccess {String} label          Static text: `Server count`.
   # @apiSuccess {String} message        Current server count.
