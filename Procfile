@@ -1,1 +1,1 @@
-worker: ./gen_docs.sh && MIX_ENV=prod mix phx.server
+worker: cd assets; npm install apidoc; apidoc -i ../lib -o static/api/docs; cd ..; MIX_ENV=prod mix phx.server
