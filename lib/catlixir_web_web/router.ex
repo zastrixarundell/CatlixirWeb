@@ -16,7 +16,7 @@ defmodule CatlixirWebWeb.Router do
   scope "/", CatlixirWebWeb do
     pipe_through :browser
 
-    get "/", PageController, :index
+    get "/", ApiController, :index
   end
 
   scope "/api/shield", CatlixirWebWeb do

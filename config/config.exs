@@ -23,10 +23,6 @@ config :logger, :console,
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
 
-# Import environment specific config. This must remain at the bottom
-# of this file so it overrides the configuration defined above.
-import_config "#{Mix.env()}.exs"
-
 # Configuration for Nostrum
 shards =
   System.get_env("DISCORD_BOT_SHARDS", "-1")
@@ -67,3 +63,7 @@ config :catlixir, Catlixir.Scheduler,
   jobs: [
     {"* * * * *", &Catlixir.Scheduler.update_dbl_status/0}
   ]
+
+# Import environment specific config. This must remain at the bottom
+# of this file so it overrides the configuration defined above.
+import_config "#{Mix.env()}.exs"
