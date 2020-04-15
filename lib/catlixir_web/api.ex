@@ -35,7 +35,7 @@ defmodule CatlixirWeb.Api do
     |> Shield.turn_to_map()
   end
 
-    @doc """
+  @doc """
   Get the map of the shield for the elixir version.
   """
   @spec generate_elixir_version_shield() :: {:ok, map()} | {:error, :is_nil | :not_a_struct | :not_correct_type}
