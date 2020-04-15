@@ -1,1 +1,1 @@
-web: ./gen_docs.sh && MIX_ENV=prod mix phx.server
+worker: ./gen_docs.sh && MIX_ENV=prod mix phx.server
