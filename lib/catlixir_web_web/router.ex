@@ -26,6 +26,7 @@ defmodule CatlixirWebWeb.Router do
 
     get "/servers", Shield.ServerCountController, :show
     get "/users",   Shield.UserCountController,   :show
+    get "/elixir",  Shield.ElixirVersionController,   :show
   end
 
   # Other scopes may use custom stacks.
