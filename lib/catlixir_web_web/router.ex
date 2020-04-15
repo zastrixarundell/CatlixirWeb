@@ -24,7 +24,8 @@ defmodule CatlixirWebWeb.Router do
 
     alias Api.Shield
 
-    get "/server", Shield.ServerCountController, :show
+    get "/servers", Shield.ServerCountController, :show
+    get "/users",   Shield.UserCountController,   :show
   end
 
   # Other scopes may use custom stacks.
