@@ -35,6 +35,3 @@ npm-debug.log
 
 # Files generated from ElixirLS.
 .elixir_ls
-
-# Files generated from the automatic API.
-/assets/static/api/
