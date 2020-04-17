@@ -39,7 +39,7 @@ defmodule CatlixirWeb.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:catlixir, "~> 0.1.6", git: "https://github.com/zastrixarundell/Catlixir"}
+      {:catlixir, git: "https://github.com/zastrixarundell/Catlixir"}
     ]
   end
 end
