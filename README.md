@@ -6,7 +6,7 @@ Phoenix API with [Catlixir](https://github.com/zastrixarundell/Catlixir) integra
 [![Discord server badge](https://img.shields.io/discord/602112468961067011)](https://discord.gg/MdASH22) [![Server count](https://img.shields.io/endpoint?url=https%3A%2F%2Fcatlixir.gigalixirapp.com%2Fapi%2Fshield%2Fservers)](https://discordapp.com/api/oauth2/authorize?client_id=641309305227837440&permissions=0&scope=bot) [![User count](https://img.shields.io/endpoint?url=https%3A%2F%2Fcatlixir.gigalixirapp.com%2Fapi%2Fshield%2Fusers)](](https://discordapp.com/api/oauth2/authorize?client_id=641309305227837440&permissions=0&scope=bot)) ![Elixir version](https://img.shields.io/endpoint?url=https%3A%2F%2Fcatlixir.gigalixirapp.com%2Fapi%2Fshield%2Felixir) ![Github release](https://img.shields.io/github/v/release/zastrixarundell/catlixir)
 
 ## General info
-This app isn't a webapp and a discord bot in one project. It's just a webapp that starts a discord bot as a package under its' Application Supervisor. This app is here only to provide API endpoint to the bot itself. 
+This app isn't a webapp and a discord bot in one project. It's just a webapp that starts a discord bot as a package under its' Application Supervisor. This app is here only to provide API endpoint to the bot itself. Using Catlixir v0.1.7.
 
 ## Documentation
 The webapp is using NPM to download and install `apidoc`. You can run the `./gendocs.sh` script to generate the latest API docs which are written in the controller files.
